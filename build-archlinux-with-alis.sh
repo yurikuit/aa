@@ -39,8 +39,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
-	buildFolder=$HOME"/DATA/AA-build"
-	outFolder=$HOME"/DATA/AA-Out"
+	buildFolder=$HOME"/DATA/Ariser-build"
+	outFolder=$HOME"/DATA/Ariser-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -148,8 +148,8 @@ echo
 	echo "Git clone ALIS"
 	mkdir $buildFolder/archiso/airootfs/alis
 	git clone https://github.com/yurikuit/alis $buildFolder/archiso/airootfs/alis
-	#mkdir $buildFolder/archiso/airootfs/alis-dev
-	#git clone https://github.com/arcolinuxiso/alis-dev $buildFolder/archiso/airootfs/alis-dev
+	mkdir $buildFolder/archiso/airootfs/alis-dev
+	git clone https://github.com/yurikuit/alis-dev $buildFolder/archiso/airootfs/alis-dev
 
 echo
 echo "################################################################## "
