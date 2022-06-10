@@ -151,11 +151,6 @@ echo
 	mkdir $buildFolder/archiso/airootfs/alis-dev
 	git clone https://github.com/yurikuit/alis-dev $buildFolder/archiso/airootfs/alis-dev
 
-	echo "Git clone Nemesis"
-	mkdir $buildFolder/archiso/airootfs/nemesis
-	git clone https://github.com/yurikuit/nemesis $buildFolder/archiso/airootfs/nemesis
-
-
 echo
 echo "################################################################## "
 tput setaf 2
